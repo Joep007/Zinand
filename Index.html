@@ -2,59 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css.css">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboar</title>
+    <link rel="stylesheet" href="main2.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="/Repo-test-g9/Css/Style.css">
 </head>
-    <header>
-    <div id="viewport">
-        <!-- Sidebar -->
-        <div id="sidebar">
-          <header>
-            <a href="#">Logo</a>
-          </header>
-          <ul class="nav">
-            <li>
-              <a href="#">
-                <i class="zmdi zmdi-view-dashboard"></i> Dashboard
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="zmdi zmdi-link"></i> Pagos
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="zmdi zmdi-widgets"></i> Ventas
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="zmdi zmdi-calendar"></i> Movimientos
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="zmdi zmdi-info-outline"></i> Tarjetas
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="zmdi zmdi-settings"></i> Reportes
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="zmdi zmdi-comment-more"></i> Perfil
-              </a>
-            </li>
-          </ul>
-        </div>
-
-    </header>
 <body>
-    <h2>hola mundo</h2>
+    <!-- GRID CONTAINER
+    ========================================================================================-->
+    <div class="grid-container">
+            <div class="menu-icon">
+                    <i class="fas fa-bars"></i>
+                  </div>
+            <header class="header">
+                <!-- Header content-->
+                        <div class="header__welcome">Welcome Today!</div>
+                        <div class="header__accoutn">Your Account</div>
+                        
+                </header>
+            <aside class="sidenav">
+                <!-- Sidenav content-->
+                <ul class="sidenav__list">
+                        <li class="sidenav__list-item"><i class="fas fa-bars side__nav__icons"></i>Dashboard</li>
+                        <li class="sidenav__list-item"><i class="fas fa-bell side__nav__icons"></i>Notification</li>
+                        <li class="sidenav__list-item"><i class="fas fa-users side__nav__icons"></i>Teachers</li>
+                        <li class="sidenav__list-item"><i class="fas fa-graduation-cap side__nav__icons"></i>Students</li>
+                        <li class="sidenav__list-item"><i class="fas fa-hotel side__nav__icons"></i>Hostel</li>
+                        <li class="sidenav__list-item"><i class="fas fa-shopping-cart side__nav__icons"></i>Expenditure</li>
+                        <li class="sidenav__list-item"><i class="fas fa-trophy side__nav__icons"></i>Competitions</li>
+                        <li class="sidenav__list-item"><i class="fas fa-flask side__nav__icons"></i>Laboratory</li>
+                        <li class="sidenav__list-item"><i class="fas fa-credit-card side__nav__icons"></i>Fees</li>
+                      </ul>
+                     <div class="sidenav__close-icon">
+<i class="fas fa-times"></i>
+            </aside>
+            <main class="main">
+                    <div class="main-header">
+                            <div class="main-header__heading">Hello User</div>
+                            <div class="main-header__updates">Recent Items</div>
+                          </div>
+
+                          <div class="main-overview">
+                                <div class="overviewcard">
+                                  <div class="overviewcard__icon">Overview</div>
+                                  <div class="overviewcard__info">Card</div>
+                                </div>
+                                <div class="overviewcard">
+                                  <div class="overviewcard__icon">Overview</div>
+                                  <div class="overviewcard__info">Card</div>
+                                </div>
+                                <div class="overviewcard">
+                                  <div class="overviewcard__icon">Overview</div>
+                                  <div class="overviewcard__info">Card</div>
+                                </div>
+                                <div class="overviewcard">
+                                  <div class="overviewcard__icon">Overview</div>
+                                  <div class="overviewcard__info">Card</div>
+                                </div>
+                              </div>
+
+                              <div class="main-cards">
+                                    <div class="card">Card</div>
+                                    <div class="card">Card</div>
+                                    <div class="card">Card</div>
+                                  </div>
+            </main>
+            <footer class="footer">
+                <!-- Footer Content-->
+                <div class="footer__copyright">&copy; 2019 CCS GRID</div>
+        <div class="footer__signature">With Achilles And Kelvin</div>
+            </footer>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main2.js"></script>
 </body>
 </html>
