@@ -94,19 +94,19 @@
   .overviewcard:nth-child(1){
       background: url(/imagenes/tarjetas-01.png);
       background-repeat:no-repeat;
-      background-size: 90%;
+      background-size: 87%;
       background-position: center;
   }
   .overviewcard:nth-child(2){
     background: url(/imagenes/tarjetas-02.png);
     background-repeat:no-repeat;
-    background-size: 90%;
+    background-size: 87%;
     background-position: center;
 }
 .overviewcard:nth-child(3){
   background: url(/imagenes/CUADRO.png);
   background-repeat:no-repeat;
-  background-size: 90%;
+  background-size: 87%;
   background-position: center;
 }
 .overviewcard:nth-child(4){
