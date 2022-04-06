@@ -14,6 +14,14 @@
     grid-area: header;
     background-color: #648ca6;
   }
+
+  .logo{
+    width: 150%;
+    height: 10%;
+    background: url(/imagenes/logoZindand.png);
+    background-size: 69%;
+    background-repeat: no-repeat;
+  }
   
   .sidenav {
     grid-area: sidenav;
@@ -36,7 +44,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 16px;
-    background-color: #648ca6;
+    background-color: #ffffff;
     color:#ddd;
     font-family: 'Play', sans-serif;
   }
@@ -49,7 +57,7 @@
   }
   .sidenav__list {
     padding: 0;
-    margin-top: 85px;
+    margin-top: -50px;;
     list-style-type: none;
   }
   .sidenav__list-item {
@@ -67,13 +75,39 @@
 
   /* Main section*/
   .main-header {
-    display: flex;
+    column-count: 2;
+    column-gap: 20px;
+    margin: 20px;
+
     justify-content: space-between;
     margin: 20px;
-    padding: 20px;
-    height: 150px; /* Force our height since we don't have actual content yet */
-    background-color: #e3e4e6;
+ /* Force our height since we don't have actual content yet */
+    background-color: white;
     color: slategray;
+  }
+  .main-header__heading{ 
+    display: flex; 
+    width: 50%; 
+    padding: 20px;
+    height: 250px;
+    align-items: center;
+    background: url(/imagenes/Movimientos.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+
+  }
+
+  .main-header__updates{
+    display: flex;
+    padding: 30%;
+    padding-left: 20%;
+    align-items: center;
+    width: 50%;
+    background: url(/imagenes/semana.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: center;
   }
 
   .main-overview {
@@ -92,13 +126,13 @@
     font-family:'Play', sans-serif;
   }
   .overviewcard:nth-child(1){
-      background: url(/imagenes/tarjetas-01.png);
+      background: url(/imagenes/tarjeta3.png);
       background-repeat:no-repeat;
       background-size: 87%;
       background-position: center;
   }
   .overviewcard:nth-child(2){
-    background: url(/imagenes/tarjetas-02.png);
+    background: url(/imagenes/tarjeta2.png);
     background-repeat:no-repeat;
     background-size: 87%;
     background-position: center;
@@ -196,6 +230,17 @@
     column-count: 1;
     column-gap: 20px;
     margin: 20px;
+  }
+
+  .main-header {
+    column-count: 1;
+    column-gap: 20px;
+    margin: 20px;
+  }
+
+  .main-header__heading{
+    background-size: 100%;
+    background-position: center;
   }
   
   /* Non-mobile styles, 750px breakpoint */
@@ -302,9 +347,44 @@
     font-size: 20px;
     color: #ddd;
   }
-  .card-Grafica{
 
+  .card-Grafica{
+    display: flex;
+    padding: 30%;
+    padding-left: 20%;
+    align-items: center;
+    width: 50%;
+    background: url(/imagenes/graficas.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+    background-color: white;
   }
+  .card-Porcentaje{
+    display: flex;
+    padding: 30%;
+    padding-left: 20%;
+    align-items: center;
+    width: 50%;
+    background: url(/imagenes/grafica2.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+  background-color: white;
+  }
+
+  .main-header__updates{
+    display: flex;
+    padding: 30%;
+    padding-left: 20%;
+    align-items: center;
+    width: 50%;
+    background: url(/imagenes/semana.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+  }
+
   
   /* Non-mobile styles for side nav responsiveness, 750px breakpoint */
   @media only screen and (min-width: 46.875em) {
