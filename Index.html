@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Dashboard de zinand</title>
+    <title>Dashboar</title>
     <link rel="stylesheet" href="main2.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
     <link rel="stylesheet" href="css.css">
@@ -18,12 +18,21 @@
                   </div>
             <header class="header">
                 <!-- Header content-->
-                        <div class="header__welcome">Welcome Today!</div>
-                        <div class="header__accoutn">Your Account</div>
+                        <div class="header__welcome"></div>
+                        <div class="header__accoutn"></div>
+                        <div class="wrap">
+                          <div class="search">
+                             <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                             <button type="submit" class="searchButton">
+                               <i class="fa fa-search"></i>
+                            </button>
+                          </div>
+                       </div>
                         
                 </header>
             <aside class="sidenav">
                 <!-- Sidenav content-->
+                <div class="logo"></div>
                 <ul class="sidenav__list">
                         <li class="sidenav__list-item"><i class="fas fa-bars side__nav__icons"></i>Dashboard</li>
                         <li class="sidenav__list-item"><i class="fas fa-bell side__nav__icons"></i>Pagos</li>
@@ -33,40 +42,45 @@
                         <li class="sidenav__list-item"><i class="fas fa-shopping-cart side__nav__icons"></i>Reportes</li>
                         <li class="sidenav__list-item"><i class="fas fa-trophy side__nav__icons"></i>Perfil</li>
                        
+                        <li class="sidenav__list-item"><i class="fas  side__nav__icons"></i>Pagos</li>
+                        <li class="sidenav__list-item"><i class="fas  side__nav__icons"></i>Ventas</li>
+                        <li class="sidenav__list-item"><i class="fas  side__nav__icons"></i>Movimientos</li>
+                        <li class="sidenav__list-item"><i class="fas  side__nav__icons"></i>Tarjetas</li>
+                        <li class="sidenav__list-item"><i class="fas  side__nav__icons"></i>Reportes</li>
+                        <li class="sidenav__list-item"><i class="fas  side__nav__icons"></i>Perfil</li>
                       </ul>
                      <div class="sidenav__close-icon">
 <i class="fas fa-times"></i>
             </aside>
             <main class="main">
+
+              <div class="main-overview">
+                <div class="overviewcard">
+                  <div class="tarjetas"></div>
+                </div>
+                <div class="overviewcard">
+                  <div class="tarjetas"></div>
+                </div>
+                <div class="overviewcard">
+                  <div class="tarjetas"></div>
+                </div>
+
+              </div>
+
+              <div class="main-cards">
+                <div class="Titulo">Estatus
+                  <div class="card-Grafica"></div>
+                </div>
+                    <div class="Titulo">Porcentaje
+                      <div class="card-Porcentaje"></div>
+                    </div>
+
+                    </div>
+                   
                     <div class="main-header">
-                            <div class="main-header__heading">Hello User</div>
-                            <div class="main-header__updates">Recent Items</div>
+                            <div class="main-header__heading"></div>
+                            <div class="main-header__updates"></div>
                           </div>
-
-                          <div class="main-overview">
-                                <div class="overviewcard">
-                                  <div class="overviewcard__icon">Overview</div>
-                                  <div class="overviewcard__info">Card</div>
-                                </div>
-                                <div class="overviewcard">
-                                  <div class="overviewcard__icon">Overview</div>
-                                  <div class="overviewcard__info">Card</div>
-                                </div>
-                                <div class="overviewcard">
-                                  <div class="overviewcard__icon">Overview</div>
-                                  <div class="overviewcard__info">Card</div>
-                                </div>
-                                <div class="overviewcard">
-                                  <div class="overviewcard__icon">Overview</div>
-                                  <div class="overviewcard__info">Card</div>
-                                </div>
-                              </div>
-
-                              <div class="main-cards">
-                                    <div class="card">Card</div>
-                                    <div class="card">Card</div>
-                                    <div class="card">Card</div>
-                                  </div>
             </main>
             <footer class="footer">
                 <!-- Footer Content-->
